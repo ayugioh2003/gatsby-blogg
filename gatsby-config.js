@@ -6,7 +6,9 @@ module.exports = {
     title: `gatsby-blogg`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sitemap", "gatsby-plugin-mdx", "gatsby-transformer-remark", {
+  // plugins: [`gatsby-plugin-decap-cms`]
+
+  plugins: [`gatsby-plugin-decap-cms`, "gatsby-plugin-sitemap", "gatsby-transformer-remark", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
