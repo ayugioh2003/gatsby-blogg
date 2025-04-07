@@ -16,4 +16,4 @@ content:
       - { name: draft, label: Draft, type: boolean }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
-      - { name: body, label: Body, type: string }
+      - { name: body, label: Body, type: text }
